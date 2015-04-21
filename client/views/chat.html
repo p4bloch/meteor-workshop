@@ -1,0 +1,26 @@
+<template name="Chat">
+    <div class="container-fluid">
+        <h2>JSChat UY</h2>
+        <div class="row messages">
+            {{#each messages}}
+                {{> Message}}
+            {{/each}}
+        </div>
+        <div class="row new-message">
+            <form>
+                <input type="text" name="message" />
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+</template>
+
+
+<template name="Message">
+    <div class="msg-wrapper">
+        <div class="message">
+            <span class="username">@{{username}}: </span>
+            {{message}}
+        </div>
+    </div>
+</template>
