@@ -24,6 +24,8 @@ cd meteor-workshop
 ~~~
 
 now, in your terminal/cmd run `meteor` (shortcut for `meteor run`) to start Meteor. Then, open your browser at [http://localhost:3000](http://localhost:3000), load the project in your favorite text editor, and start playing around. There are hints all over the files that hopefully will guide you through :)
- 
- **Have fun!**  
+
+ **Have fun!**
 [@p4bloch](http://twitter.com/p4bloch)
+
+PS: If you need help, just ask me, or see my solution (not *the* solution) in the `solution` branch by running `git checkout solution`. You can always go back to the master branch with `git checkout master`.
