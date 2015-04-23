@@ -16,6 +16,8 @@ if (Meteor.isClient) {
                 username: username
             });
 
+            // Scroll div to bottom when every message is inserted
+            $('.messages')[0].scrollTop = $('.messages')[0].scrollHeight;
         }
     });
 
