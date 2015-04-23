@@ -25,6 +25,9 @@
             // Related docs: http://docs.meteor.com/#/full/livehtmltemplates
             // Notes: just like Handlebars!
             -->
+            {{#each messages}}
+                {{> Message}}
+            {{/each}}
         </div>
         <div class="row new-message">
             <form>

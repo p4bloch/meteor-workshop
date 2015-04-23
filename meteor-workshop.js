@@ -11,6 +11,10 @@ if (Meteor.isClient) {
             // TODO: Insert into Messages collection
             // Related docs: http://docs.meteor.com/#/full/insert
             // Notes: create it first! [both/collections.js]
+            Messages.insert({
+                message: message,
+                username: username
+            });
 
         }
     });
@@ -19,6 +23,7 @@ if (Meteor.isClient) {
         messages: function() {
             // TODO: Return all Messages using the Mongo Collection created in collections.js
             // Related docs: http://docs.meteor.com/#/full/find
+            return Messages.find({});
         }
     });
 }
