@@ -28,4 +28,8 @@ if (Meteor.isClient) {
             return Messages.find({});
         }
     });
+
+    Template.Chat.onRendered(function(){
+        $('.messages')[0].scrollTop = $('.messages')[0].scrollHeight;
+    })
 }
