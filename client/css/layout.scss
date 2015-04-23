@@ -1,3 +1,4 @@
+// CSS Styles
 body {
     font-family: "Rambla", Helvetica, Arial, sans-serif !important;
 }
@@ -48,9 +49,17 @@ input {
     outline: none;
 }
 
-input[type=text] {
-    width: 80%;
-    margin-left: 1%;
+input[name=message] {
+    width: 60%;
+    border-radius: 4px;
+    border: 1px solid #D8D8D8;
+    margin: 1%;
+    padding-left: 10px;
+    height: 50px;
+}
+
+input[name=username] {
+    width: 18%;
     border-radius: 4px;
     border: 1px solid #D8D8D8;
     margin: 1%;

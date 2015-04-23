@@ -2,12 +2,15 @@
     <div class="container-fluid">
         <h2>JSChat UY</h2>
         <div class="row messages">
-            {{#each messages}}
-                {{> Message}}
-            {{/each}}
+            <!--
+            // TODO: Iterate over messages array using Spacebars and yield Message template
+            // Related docs: http://docs.meteor.com/#/full/livehtmltemplates
+            // Notes: just like Handlebars!
+            -->
         </div>
         <div class="row new-message">
             <form>
+                <input type="text" name="username" />
                 <input type="text" name="message" />
                 <input type="submit" value="Send">
             </form>
