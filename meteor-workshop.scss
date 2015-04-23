@@ -4,40 +4,13 @@ body {
 }
 
 .messages {
-    height: 300px;
+    min-height: 400px;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     background: #fff;
 }
 
-header {
-    height: 10%;
-    background-color: #162636;
-    h2 {
-        color: #5494BE;
-        margin: 0;
-        height: 100%;
-        font-size: 22px;
-        display: flex;
-        align-items: center;
-        float: left;
-        margin-left: 15px;
-    }
-    button {
-        outline: none;
-        float: left;
-        display: flex;
-        align-items: center;
-        height: 100%;
-        color: #fff;
-        background: rgb(33, 58, 82);
-        border: 0;
-        padding: 0 13px;
-    }
-}
-
 .new-message {
-    height: 10%;
     padding: 0;
     form {
         height: 100%;
