@@ -9,7 +9,10 @@ How do I start?
 ---------------
 
 First, if you haven't already, you need to install Meteor.
-In Windows, download the latest version from https://install.meteor.com/windows
-~~~php
-dsadas
+
+In Windows, download the latest version from [https://install.meteor.com/windows](https://install.meteor.com/windows), open the file and click next several times.
+
+In OSX and Linux, you can simply run the following command into your Terminal in order to have Meteor installed.
+~~~
+curl https://install.meteor.com/ | sh
 ~~~
